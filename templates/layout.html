@@ -2,18 +2,19 @@
 <html>
 
   <head>
-    <title>Sudutt's Website - using python3.6 and Flask</title>
+    <title>StockChart-Helping Stockbrokers since 2017</title>
     <link rel="stylesheet" href = "{{url_for('static',filename='css/main.css')}}">
   </head>
 
   <body>
     <header>
       <div class = "container">
-        <h1 class = "logo">My WebSite</h1>
+        <h1 class = "logo">StockChart</h1>
         <strong><nav>
           <ul class="menu">
             <li><a href="{{ url_for('home')}}">Home</a></li>
             <li><a href="{{ url_for('about')}}">About</a></li>
+            <li><a href="{{ url_for('plot')}}">Plot</a></li>
           </ul>
         </nav></strong>
       </div>
